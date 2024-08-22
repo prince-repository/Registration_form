@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+  </head>
+  <body>
+
+    <marquee behavior="" direction=""><h1 style="color:darkblue;">WELCOME TO REGISTRATION FORM </h1></marquee>
+    <!-- <center style="color: brown;">REGISTRATION FORM</center> -->
+    <fieldset name="Myform" action=" " method="">
+         <legend style="color: red;"><h1>Student's Registration Form</h1></legend>
+        
+       
+    <!--form tag begins -->
+    <form name="" method="">
+    <table cellpadding="5" cellspacing="5" align="center" bgcolor="gold" >
+
+        <tr>
+            <td>
+                <b>Name of the Applicant:</b>
+            
+            </td>
+        </tr>
+        <tr>
+            <td>
+                First Name:
+            </td>
+            <td>
+                <input type="text" name="fname" size="" placeholder="Enter Your firstname" autofocus  />
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Last Name:
+            </td>
+            <td>
+                <input type="text" name="lname" size="" placeholder="Enter Your last Name " />
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Date Of Birth:
+            </td>
+            <td>
+                <input type="date" />
+            </td>
+        </tr>
+
+       <!--gender row begins-->
+            <tr>
+                <td>
+                    Gender:
+                </td>
+                <td>
+                     <label for="male">Male</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="female">Female</label>  
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="other">Other</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                
+                </td>
+            </tr>
+ <!--gender row end -->
+      <!--phone row -->
+
+      <tr>
+        <td>
+      Phone No:
+        </td>
+        <td>
+            <input type="number"  >
+        </td>
+      </tr>
+   <!--email row -->
+      <tr>
+        <td>Email-id:</td>
+        <td><input type="email" name="email" size="" required /></td>
+      </tr>
+      
+      <!--parents information-->
+
+      <tr>
+            <td><b>Parent's Information:</b></td>
+      </tr>
+
+      
+      <tr>
+        <td>Father's Name:</td>
+           <td>
+            <input type="text" name="fname" size="" />
+          </td>
+      </tr>
+
+      <tr>
+        <td>Father's Qualification:</td>
+           <td>
+            <input type="text" name="fqualification" size="" />
+          </td>
+      </tr>
+
+      <tr>
+        <td>Father's Occupation:</td>
+           <td>
+            <input type="text" name="foccupation" size="" />
+          </td>
+      </tr>
+
+      <tr>
+        <td>
+            <p>
+
+            </p>
+        </td>
+    </tr>
+
+ <tr> 
+                 <td>Mother's Name:</td>
+                 <td> <input type="text" name="mname" size="" >
+                 </td>            
+           </tr>   
+           
+           <tr> 
+             <td>Mother's Qualification:</td>
+             <td> <input type="text" name="mqualification" size="" >
+             </td>            
+       </tr>   
+ 
+       <tr> 
+         <td>Mother's Occupation:</td>
+         <td> <input type="text" name="moccupation" >
+         </td>            
+
+         <tr>
+            <td>
+                <p style="background-color: blue;"></p>
+      
+            </td>
+         </tr>
+         
+          <!--select option-->
+
+          <tr>
+            <td>
+                <label for="course">Course:</label>
+                
+            </td>
+
+            <td>
+                <select name="Course" id="course">
+                    <option value="">--select--</option>
+                    <option value="B.C.A">B.C.A</option>
+                    <option value="B.B.A">B.B.A</option>
+                    <option value="M.B.A">M.B.A</option>
+                    <option value="M.C.A">M.C.A</option>
+            </td>
+          </tr>
+
+
+          <!--check box hobbies section-->
+            <tr>
+                <td>
+                    Hobbies:
+                </td>
+
+                <td>
+                    <label for="reading books">Reading Books</label>
+                    <input type="checkbox" name="hobbies" id="reading books" />  
+                     <label for="writing">Writing</label>
+                    <input type="checkbox" name="hobbies" id="writing" />         
+                     <label for="playing">Playing</label>
+                     <input type="checkbox" name="hobbies" id="playing" />
+                    <label for="programming">Programming</label>
+                  <input type="checkbox" name="hobbies" id="programming" />
+                      
+                </td>     
+            </tr>
+<!--addresss -->
+            <tr>
+                <td>
+                    Address:
+                </td>
+                <td>
+                    <textarea name="Address" id="" cols="" rows="">
+                        please write your address </textarea
+                                >
+                </td>
+            </tr>
+
+
+            <!--photo -->
+            <tr>
+                <td>Photo:</td>
+                <td> Photo : <input type="file" name="date" size="" />
+                </td>
+            </tr>
+
+            <!--submit and reset -->
+            <tr>
+                <td>Submit</td>
+                <td><input type="submit" size="" />
+                </td>
+                <td>Reset</td>
+                <td><input type="reset" size="" /></td>
+            </tr>
+    </table>
+
+    </form>
+    </fieldset>
+    <!--form tag ends -->
+  </body>
+</html>
